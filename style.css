@@ -1,6 +1,85 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
+html { box-sizing: border-box;
+background-color: #b2bec3;
+}
+
+body {
+    position: relative;
+    background-color: white;
+    width: 550px;
+    margin: 150px auto;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: black 4px 6px 10px;
+   
+
+   
+    
+    
+}
 *, ::after, ::before { box-sizing: inherit; }
+
+.obrazek {
+    width: 150px;
+    height: 150px;
+    margin: -120px;
+    float: right;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    box-shadow: black 4px 4px 4px;
+    
+}
+
+h1 {
+    color: #d63031;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+}
+
+
+.druhyodstavec {
+    margin-bottom: 30px;
+}
+
+
+
+.twitter {
+    font-weight: bold;
+    display: block;
+    box-sizing: border-box;
+    background-color:#1da1f2;
+    color: white;
+    padding: 10px 215px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-variant: small-caps;
+    border-radius: 5px;
+    
+    
+    
+
+}
+
+.facebook {
+    font-weight: bold;
+    display: block;
+    box-sizing: border-box;
+    background-color:#3b5998;
+    color: white;
+    padding: 10px 215px;
+    text-decoration: none;
+    font-variant: small-caps;
+    border-radius: 5px;
+    
+    
+
+}
+
 
 /*
 BARVY:
